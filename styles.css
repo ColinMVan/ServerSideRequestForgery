@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --mainback: #2f2fa2;
+  --secondaryback: #242582;
+  --text: white;
+  --accent1: #f64c72;
+  --accent2: #553d67;
+}
+
+body {
+  background-color: var(--mainback);
+  color: var(--text);
+}
+
+.hero {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: min(1500px, 90%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.herotext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.hero .image {
+  width: min(600px, 75%);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
